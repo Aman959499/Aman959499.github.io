@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0f7fa; /* light ocean blue background */
+    color: #023047; /* dark blue text */
+}
+
+/* Header */
+header {
+    background-color: #0077b6; /* deep ocean blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Image Grid */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.grid-image {
+    width: 150px;   /* reduced width for smaller photos */
+    height: 100px;  /* reduced height for smaller photos */
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #023047;
+}
+
+/* Info Section */
+.info {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.info h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.info p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+`
